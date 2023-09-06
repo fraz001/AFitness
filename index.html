@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AFitness</title>
+    
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS Stylesheets + Scripts-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/c57a0e6109.js" crossorigin="anonymous"></script>
+  </head>
+  <style>
+    #cta {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    #footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        
+        
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href=""><em>AF</em>itness</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Download</a>
+              </li>
+              
+            </ul>
+          </div>
+        </nav>
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Meet your new Instructor to Learn Interesting Fitness Myths.</h1>
+            <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
+            <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+          </div>
+          <div class="col-lg-6">
+            <img class="title-image" src="images/123.jpg" alt="iphone-mockup">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Features -->
+    
+    <section id="features">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class=" icon fa-solid fa-circle-check fa-4x"></i>
+          <h3>Convenient for Every Schedule</h3>
+          <p>Conveniently timed workouts for every schedule (5, 10, 15, 20, 30, and 45 minute options)</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class=" icon fa-solid fa-bullseye fa-4x"></i>
+          <h3>Easily Accessible</h3>
+          <p>Workouts are accessible (instructors offer modifications and use sign language)</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="icon fa-solid fa-heart fa-4x"></i>
+          <h3>1000 Fitness Workouts</h3>
+          <p>Large collection of over 1,000 workouts within different exercise categories.</p>
+        </div>
+      </div>
+      
+      
+    </section>
+    <!-- Testimonials -->
+    <section id="testimonials">
+      <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="hover">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="testimonial-text">Through core, strength, and dance workouts, AFitness Plus significantly improved my weekly exercise routine.</h2>
+            <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+            <em>Beverly, Illinois</em>
+          </div>
+          <div class="carousel-item">
+            <h2>Through core, strength, and dance workouts, AFitness Plus significantly improved my weekly exercise routine.</h2>
+      <img class="testimonial-image" src="images/fake.png" alt="dog-profile">
+      <em>Pebbles, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h2>Through core, strength, and dance workouts, AFitness Plus significantly improved my weekly exercise routine.</h2>
+      <img class="testimonial-image" src="images/fake.png" alt="dog-profile">
+      <em>Pebbles, New York</em>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      
+      
+    </section>
+    <!-- Press -->
+    <section id="press">
+      <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+      <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+      <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+      <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing">
+      <h2>A Plan for Every one's Fitness</h2>
+      <p>Simple and affordable price plans for you and your Fitness.</p>
+
+     <div class="row">
+     <div class="pricing-column col-lg-4 col-md-6">
+       <div class="card">
+        <div class="card-header">
+            <h3>Free</h3>
+        </div>
+        
+        <div class="card-body">
+            <h2>Free</h2>
+      <p>2 Workout Exercises Per Day</p>
+      <p>1 Conversation Per Day</p>
+      <p>Unlimited App Usage</p>
+      <button class="w-100 btn btn-lg btn-outline-dark" type="button">Sign Up</button>
+        </div>
+      </div>
+     </div> 
+    
+        
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+        <div class="card-header">
+            <h3>Pro</h3>
+        </div>
+        
+        <div class="card-body">
+            <h2>$49 / mo</h2>
+      <p>Access to 03 Premium Courses</p>
+      <p>Unlimited Workout Exercises</p>
+      <p>Unlimited Conversations</p>
+      <p>Unlimited App Usage</p>
+      <button class="w-100 btn btn-lg btn-dark" type="button">Sign Up</button>
+        </div>
+      </div>
+        </div>
+        
+
+        <div class="pricing-column col-lg-4">
+          <div class="card">
+        <div class="card-header">
+            <h3>Enterprise</h3>
+        </div>
+        
+        <div class="card-body">
+            <h2>$99 / mo</h2>
+      <p>Access to All Premium Courses</p>
+      <p>Priority Guidance</p>
+      <p>Unlimited Workout Exercises</p>
+      <p>Unlimited Conversations</p>
+      <p>Unlimited App Usage</p>
+      <button class="w-100 btn btn-lg btn-dark" type="button">Sign Up</button>
+        </div>
+      </div>
+        </div>
+        
+
+    </div>
+    </div>
+      
+      
+      
+      
+      
+      
+    </section>
+    <!-- Call to Action -->
+    <section id="cta">
+      <h3>Make Your Life <em>Healthy & Fit</em> with <em>AF</em>itness.</h3>
+    </section>
+    <div class="buttons">
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+    </div>
+    <!-- Footer -->
+    <footer id="footer">
+      <p>Copyright © AFitness</p>
+    </footer>
+  </body>
+</html>
